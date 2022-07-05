@@ -1,0 +1,20 @@
+.example-form {
+    margin: 5% auto;
+    width: 60%;
+    background-color: #1f2a48;
+    border-radius: 10px;
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+input, input::placeholder,
+mat-icon,
+mat-label {
+    color: #edf1f5;
+}
+
+input::placeholder{
+    font-size: 12px;
+}

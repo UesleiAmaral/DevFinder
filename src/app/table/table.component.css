@@ -1,0 +1,30 @@
+div{
+    box-sizing: border-box;
+    padding: 5% 2%;
+    margin: 0 auto;
+    width: 100%;
+    border-top: 3px solid #141c2f;
+}
+
+.mat-elevation-z8 {
+    margin: 10px auto 10px auto;
+    width: 50%;
+    background-color: #141c2f;
+}
+
+.mat-header-cell{
+    text-align: center;
+    color: #7f8496;
+}
+
+.mat-header-cell:first-of-type, .mat-header-cell:last-of-type, .mat-cell:first-of-type, .mat-cell:last-of-type{
+    padding: 0;
+}
+
+th, td{
+    color: #bbbfca;
+    text-align: center;
+    padding-left: 0;
+    font-weight: 500;
+    
+}

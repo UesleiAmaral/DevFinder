@@ -1,0 +1,93 @@
+
+.mat-card {
+    padding: 0;
+    box-sizing: border-box;
+    color: #edf1f5;
+    background-color: #1f2a48;
+}
+
+.mat-card-header {
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid black;
+}
+
+
+
+.mat-card-image{
+    padding: 5% 2%;
+}
+
+.mat-card-image img {
+    width: 25%;
+    height: 150px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.mat-card-image:first-child {
+    margin: 0;
+}
+
+div {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+
+}
+.mat-card-header .mat-card-title {
+    margin-bottom: 0;
+}
+
+span, p {
+    margin: 0;
+    color: #7f8496;
+
+}
+
+.mat-card-content {
+    width: 50%;
+}
+
+.mat-card-content-descrisao {
+    text-align: justify;
+    color: #7f8496;
+    display: inline-block;
+
+}
+
+
+mat-card-actions{
+    padding: 5% 2%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-top: 3px solid #141c2f;
+
+}
+
+mat-card-actions button{
+    margin-left: 5%;
+    padding: 1%;
+    border: transparent;
+    background-color: transparent;
+}
+
+mat-card-actions a{
+    color: #7f8496;
+    text-decoration: none;
+
+}
+
+.mat-card>.mat-card-actions:last-child {
+    margin-bottom: 0;
+    padding-bottom: 5%;
+}
